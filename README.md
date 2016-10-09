@@ -13,13 +13,13 @@
 Master
 ├─ Hotfix
 │  └─ Fix Name
-│     └ 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+│     └ 開發者暱稱
 ├─ Release
 ├─ Develop
 │  ├─ Feature Name
-│  │  └ 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+│  │  └ 開發者暱稱
 │  └─ Fix Name
-│     └ 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+│     └ 開發者暱稱
 └─ feature
 
 ```
@@ -27,11 +27,11 @@ Description
 - Master : 正式發佈的成品
 	- Hotfix
 	    - Fix Name : 修正已發佈至Master上的功能的bug，以功能命名
-	        - 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+	        - 開發者暱稱
 	- Release : 進行從Develop發佈至Master前的準備動作
 	- Develop
 	    - Feature Name : 開發的次要支線，依據功能區分，以功能命名
-	        - 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+	        - 開發者暱稱
 	    - Fix Name : 修正已發佈至Develop上的功能的bug，以功能命名
-	        - 開發者暱稱 + 日期 (Name-yyyy-mm-dd)
+	        - 開發者暱稱
 	- Feature : 保留
